@@ -1,0 +1,141 @@
+/* Colour Pallete
+
+#112D4E
+
+#3f72af
+
+#dbe2ef
+
+#f9f7f7
+
+*/
+
+
+
+
+/* GLOBAL STYLES */
+body {
+    /* display: flex; */
+    justify-content: center;
+  }
+
+.spacing {
+    padding: 7% 12%;
+    text-align: center;
+}
+
+.space{
+    height: 20px
+}
+
+/* Header Section */
+#header { 
+    background-color: #f9f7f7;
+}
+
+.header-avatar {
+    width: 150px
+}
+.header-img {
+    display: flex;
+    width: 100% \9;
+}
+
+/* Intro section */
+
+#intro {
+    background-color: #112D4E;
+    color: #f9f7f7
+}
+
+#intro2 {
+    background-color: #dbe2ef;
+    height: 20px;
+}
+
+.intro-text {
+    padding: 3% 14%;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+/* Skills section */
+
+.skills {
+    background-color: #dbe2ef;
+    margin: 0 20px;
+    border-radius: 10px;
+    color: #112D4E;
+}
+
+.skills-header {
+    padding: 7% 0;
+}
+
+.skills-text {
+    line-height: 30px;
+    font-size: 18px;
+    padding: 0 10%;
+}
+
+/* Education */
+#education {
+    background-color: #f9f7f7;
+}
+
+.education-info{
+    background-color:  #dbe2ef;
+    /* opacity: 0.4; */
+    padding: 50px;
+    border-radius: 50px;
+    text-align: justify
+}
+
+/* Portfolio section */
+#porfolio {
+    background-color: #112D4E;
+    padding: 7% 7%
+}
+
+.porfolio-heading {
+    text-align: center;
+    color: #f9f7f7
+}
+
+.p-card{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    height: auto;
+    padding: 2% 2%;
+    vertical-align: middle;
+}
+
+.p-img {
+    width: 100%
+}
+
+.imgg{
+    width: 20%
+}
+
+/* contact section */
+#contact {
+    text-align: left;
+}
+
+
+/* Footer section */
+footer {
+    background-color: #112D4E;
+    color: #f9f7f7
+}
+
+.footer-icon  {
+    color: #f9f7f7;
+    padding: 20px
+}
+
+.footer-icon:hover  {
+    color: #dbe2ef
+}
